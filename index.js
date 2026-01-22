@@ -37,19 +37,20 @@ function playGame() {
         console.log(`its a tie: Human chose ${humanChoice} and computer also chose ${computerChoice}`)}*/
 
         if (
-        humanChoice === computerChoice) {
-        console.log(`its a tie: Human chose ${humanChoice} and computer also chose ${computerChoice}`)}
+            humanChoice === computerChoice) {
+            console.log(`its a tie: Human chose ${humanChoice} and computer also chose ${computerChoice}`)
+        }
 
         else if (
             (humanChoice === 'PAPER' && computerChoice === 'Rock') || (humanChoice === 'ROCK' && computerChoice === 'SCISSORS') || (humanChoice === 'SCISSORS' && computerChoice === 'PAPER')
         ) {
-        humanScore++;
-        console.log(`Human wins: ${humanChoice} beats ${computerChoice}`)
+            humanScore++;
+            console.log(`Human wins: ${humanChoice} beats ${computerChoice}`)
         }
         
         else {
-        computerScore++;
-        console.log(`Computer wins: ${computerChoice} beats ${humanChoice}`)
+            computerScore++;
+            console.log(`Computer wins: ${computerChoice} beats ${humanChoice}`)
         }
     }
 
