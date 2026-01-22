@@ -42,7 +42,7 @@ function playGame() {
         }
 
         else if (
-            (humanChoice === 'PAPER' && computerChoice === 'Rock') || (humanChoice === 'ROCK' && computerChoice === 'SCISSORS') || (humanChoice === 'SCISSORS' && computerChoice === 'PAPER')
+            (humanChoice === 'PAPER' && computerChoice === 'ROCK') || (humanChoice === 'ROCK' && computerChoice === 'SCISSORS') || (humanChoice === 'SCISSORS' && computerChoice === 'PAPER')
         ) {
             humanScore++;
             console.log(`Human wins: ${humanChoice} beats ${computerChoice}`)
@@ -69,10 +69,10 @@ function playGame() {
     console.log(`${humanScore} : ${computerScore}`);
 
     if (humanScore > computerScore) {
-        console.log("You won: You are champion!");
+        console.log("You won: You are a champion!");
     } else if (computerScore > humanScore) {
         console.log("Computer won: Try Again!");
-    } else {console.log("It's a tie");}
+    } else {console.log("It's a tie!");}
     
 }
 
